@@ -1,0 +1,231 @@
+/******************************     FONTS     ******************************/
+@import 'https://fonts.googleapis.com/css?family=Fascinate';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+/******************************     BODY     ******************************/
+body {
+    clear: both;
+    background-color:#E5E7E9;
+    margin: 0 auto;
+    width: 80%;
+    font-family: 'Raleway', sans-serif;
+}
+
+/******************************     HEADER & NAV BAR     ******************************/
+#wwHeader {
+    background-color:#E5E7E9;
+    color:#283747;
+    text-align: center;
+    padding:0;
+    margin: 0;
+    border: 0;
+    height: 6em;
+}
+
+.h1wwClass {
+    font-size: 250%;
+    font-family: 'Fascinate', cursive;
+    padding:0;
+    margin: 0;
+    border: 0;
+    height: 1em;
+}
+
+.headNav {
+    position: fixed;
+    width: 80%;
+    top: 0;
+    padding: 3% 0 0 0;
+    margin: 0;
+    border: 0;
+    background-color: #E5E7E9;
+}
+
+
+ul.navHBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #1B2631; 
+    background: -webkit-linear-gradient(left, #1B2631 , #FFF); 
+    background: -o-linear-gradient(right, #1B2631, #FFF); 
+    background: -moz-linear-gradient(right, #1B2631, #FFF);
+    background: linear-gradient(to right, #1B2631 , #FFF); 
+}
+
+ul.navHBar li {float: left;}
+
+ul.navHBar li a {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight:900;
+}
+
+ul.navHBar li a:hover:not(.active) {background-color: #BA4A00;}
+
+ul.navHBar li a.active {background-color: #BA4A00;}
+
+@media screen and (max-width: 600px){
+   ul.navHBar li {float: none;}
+}
+
+
+/******************************     MAIN CONTENT     ******************************/
+.mainContent {
+    width:64%;
+    margin-top: 11em;
+    margin-bottom: 1em;
+    float:left;
+    padding:10px;
+}
+
+.divcontents {
+    background-color:#FFF;
+    padding: 0 1% 1% 2%;
+    height: 22em;
+}
+
+.divcontents h2 {
+    color: #BA4A00;
+    padding-top: 0.5em;
+}
+
+
+/******************************     IMAGES1     ******************************/
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.imgDesc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.divImages {
+    padding: 15px 10px 20px 20px;
+    float: right;
+    width: 30%;
+}
+
+@media only screen and (max-width: 700px){
+    .divImages {
+        width: 80%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .divImages {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/******************************     VIDEO     ******************************/
+
+.divVideo {
+    text-align: center;
+    padding:0;
+    margin: 0;
+    border: 0;
+}
+
+/******************************     ASIDE     ******************************/
+.divaside {
+    width:35%;
+    margin-top:11em;
+    float:right;
+    padding:10px;
+}
+
+.a_aside {
+    background-color:#FFF;
+    padding: 0 1% 1% 1%;
+    height: 38em;
+}
+
+.a_aside h2 {
+    color: #BA4A00;
+    text-align: center;
+    padding-top: .5em;
+}
+
+.a_aside h2 {
+    text-align: center;
+}
+
+/******************************     IMAGES2     ******************************/
+div.img2 {
+    border: 1px solid #ccc;
+}
+
+div.img2 img {
+    width: 100%;
+    height: auto;
+}
+
+div.imgDesc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.asideImages {
+    padding: 5px 10px 20px 10px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px){
+    .asideImages {
+        width: 80%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .asideImages {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/******************************     FOOTER     ******************************/
+footer {
+    background-color: #283747;
+    color: #FFF;
+    font-size: 120%;
+    font-family: 'Fascinate', cursive;
+    clear:both;
+    text-align:center;
+    padding:10px;	 	 
+}
